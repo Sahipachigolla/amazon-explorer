@@ -6,7 +6,7 @@ import FilterPanel from "./components/FilterPanel";
 const dummyProducts = [
   {
     id: 1,
-    image: "/images/psychology-of-money.jpg",
+    image: process.env.PUBLIC_URL + "/images/psychology-of-money.jpg",
     title: "The Psychology of Money - Morgan Housel",
     price: 349,
     rating: 4.6,
@@ -14,7 +14,7 @@ const dummyProducts = [
   },
   {
     id: 2,
-    image: "/images/wallet.jpg",
+    image: process.env.PUBLIC_URL + "/images/wallet.jpg",
     title: "Minimalist Men's Slim Wallet",
     price: 599,
     rating: 4.3,
@@ -22,7 +22,7 @@ const dummyProducts = [
   },
   {
     id: 3,
-    image: "/images/boat-earphones.jpg",
+    image: process.env.PUBLIC_URL + "/images/boat-earphones.jpg",
     title: "boAt BassHeads 100 Wired Earphones",
     price: 399,
     rating: 4.2,
@@ -30,7 +30,7 @@ const dummyProducts = [
   },
   {
     id: 4,
-    image: "/images/pearl-earrings.jpg",
+    image: process.env.PUBLIC_URL + "/images/pearl-earrings.jpg",
     title: "Zaveri Pearls Gold-Plated Earrings",
     price: 299,
     rating: 4.1,
@@ -38,7 +38,7 @@ const dummyProducts = [
   },
   {
     id: 5,
-    image: "/images/t-shirt.jpg",
+    image: process.env.PUBLIC_URL + "/images/t-shirt.jpg",
     title: "Puma Men's Regular Fit T-Shirt",
     price: 749,
     rating: 4.3,
